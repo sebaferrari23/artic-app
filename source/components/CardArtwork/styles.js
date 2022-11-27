@@ -9,6 +9,7 @@ export const styles = StyleSheet.create({
     backgroundColor: 'white',
     flexDirection: 'row',
     alignItems: 'flex-start',
+    overflow: 'hidden',
   },
   content: {
     paddingHorizontal: 16,
@@ -20,6 +21,7 @@ export const styles = StyleSheet.create({
     lineHeight: 20,
     fontWeight: '600',
     fontFamily: fonts.primary,
+    color: 'black',
   },
   artist: {
     fontSize: 12,

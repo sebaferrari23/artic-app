@@ -6,7 +6,7 @@ import { NavigationContainer } from '@react-navigation/native';
 
 import { Screens } from '~/screens';
 import { store } from '~/store';
-import { NAVIGATION_THEME } from '~/constants';
+import { BACKGROUND_COLOR, NAVIGATION_THEME } from '~/constants';
 import { axiosInterceptor, initSyncStorage } from '~/utils';
 
 axiosInterceptor();
@@ -26,7 +26,7 @@ export const App = memo(() => {
   return (
     <StoreContext.Provider value={store}>
       <NavigationContainer theme={NAVIGATION_THEME}>
-        <StatusBar barStyle="dark-content" backgroundColor="transparent" />
+        <StatusBar barStyle="dark-content" backgroundColor={BACKGROUND_COLOR} />
         <Screens />
       </NavigationContainer>
     </StoreContext.Provider>

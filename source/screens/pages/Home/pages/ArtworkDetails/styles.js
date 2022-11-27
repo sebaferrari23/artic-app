@@ -50,6 +50,7 @@ export const styles = StyleSheet.create({
     fontSize: 24,
     lineHeight: 32,
     fontWeight: '700',
+    color: 'black',
     fontFamily: fonts.primary,
     marginBottom: 5,
   },
@@ -70,6 +71,7 @@ export const styles = StyleSheet.create({
   },
   tableTitle: {
     fontFamily: fonts.primary,
+    color: 'black',
     fontSize: 12,
     textTransform: 'uppercase',
     fontWeight: '700',
@@ -77,6 +79,7 @@ export const styles = StyleSheet.create({
   },
   tableValue: {
     fontFamily: fonts.primary,
+    color: 'black',
     fontSize: 12,
     flex: 1,
     textAlign: 'right',

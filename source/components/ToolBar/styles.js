@@ -2,13 +2,12 @@
 
 import { StyleSheet } from 'react-native';
 
-import { fonts, IS_ANDROID } from '~/constants';
+import { fonts } from '~/constants';
 
 export const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
     flexDirection: 'row',
-    marginTop: IS_ANDROID ? 50 : 0,
     height: 56,
     justifyContent: 'space-between',
     zIndex: 999,
